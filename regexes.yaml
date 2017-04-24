@@ -818,7 +818,7 @@ os_parsers:
   # builds before tiger don't seem to specify version?
 
   # ios devices spoof (mac os x), so including intel/ppc prefixes
-  - regex: '(?:PPC|Intel) (Mac OS X)'
+  - regex: '(?:PPC|Intel(?:x64)) (Mac OS X)'
 
   ##########
   # iOS
